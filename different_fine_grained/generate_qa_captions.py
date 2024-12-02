@@ -150,8 +150,8 @@ def create_nonvalidated_plausible_answers_dict(question_types, data_dir):
     questionType_answersList = defaultdict(list)
     for question_type in questionType_answers.keys():
         questionType_answersList[question_type] = list(questionType_answers[question_type])
-    qid_questions= load_questions(data_dir=args.data_dir, split='train')
-    qid_answer = load_answers(data_dir=args.data_dir, split='train')
+    qid_questions= load_questions(data_dir=data_dir, split='train')
+    qid_answer = load_answers(data_dir=data_dir, split='train')
     for question_id in qid_questions.keys():
         answer = qid_answer[question_id]
         question = qid_questions[question_id]
