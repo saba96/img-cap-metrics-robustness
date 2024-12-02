@@ -6,7 +6,7 @@ This repository contains code for the [paper](https://arxiv.org/abs/2305.14998) 
 Recently, reference-free metrics such as CLIPScore (Hessel et al., 2021) and UMIC (Lee et al., 2021) have been proposed for automatic evaluation of image captions, demonstrating a high correlation with human judgment. We provide insights into the strengths and limitations of reference-free metrics for image captioning evaluation, guiding future improvements in this area.
 
 ## Contents
-- **Dataset**: Download the dataset from [here](https://drive.google.com/file/d/1cbdkRBJvCwbGT3JYCQdi-ETSu5lSQsF0/view?usp=drive_link). Additionally, we have provided the file containing scores for all baselines for each metric.
+- **Dataset**: Download the dataset from [here](https://drive.google.com/file/d/1MzuTSeq2waW_yYoe2oFiL_zOs0aODvVX/view?usp=sharing). Additionally, we have provided the file containing scores for all baselines for each metric.
 
 Please download them and unzip them in ./dataset directory.
 
