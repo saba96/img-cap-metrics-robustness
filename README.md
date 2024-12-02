@@ -8,4 +8,6 @@ Recently, reference-free metrics such as CLIPScore (Hessel et al., 2021) and UMI
 ## Contents
 - **Dataset**: Download the dataset from [here](https://drive.google.com/file/d/1cbdkRBJvCwbGT3JYCQdi-ETSu5lSQsF0/view?usp=drive_link). Additionally, we have provided the file containing scores for all baselines for each metric.
 
-- **Code**: The code for our study will be released soon.
+Please download them and unzip them in ./dataset directory.
+
+- **TODO**: Update README and clean the code. Please do not hesitate to reach out for any issue.
