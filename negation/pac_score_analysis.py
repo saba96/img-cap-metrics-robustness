@@ -3,9 +3,9 @@ import numpy as np
 import scipy.stats
 
 def main():
-    with open('./correct_yes_no_pac_score.json') as f:
+    with open('../dataset/negation/dataset/negation/correct_yes_no_pac_score.json') as f:
         correct_caps = json.load(f)
-    with open('./negated_correct_yes_no_pac_score.json') as f:
+    with open('../dataset/negation/negated_correct_yes_no_pac_score.json') as f:
         negated_correct_caps = json.load(f)
 
     all_scores = []

@@ -4,9 +4,9 @@ import scipy.stats
 from collections import defaultdict
 
 def main():
-    with open('./correct_yes_no_umic.json') as f:
+    with open('../dataset/negation/correct_yes_no_umic.json') as f:
         correct_caps = json.load(f)
-    with open('./negated_correct_yes_no_umic.json') as f:
+    with open('../dataset/negation/negated_correct_yes_no_umic.json') as f:
         negated_correct_caps = json.load(f)
     
 
